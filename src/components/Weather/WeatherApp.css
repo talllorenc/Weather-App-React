@@ -1,0 +1,147 @@
+._wrapper{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    flex-flow: column;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 1300px;
+    padding: 0 15px;
+    margin: 0px auto;
+    box-sizing: content-box;
+    background: linear-gradient(to right, #FFA500, #2259fe);
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.weather_app{
+    text-align: center;
+    font-size: 60px;
+    font-family: poppins;
+    background-image: linear-gradient(to right, #ff0000, #ffffff);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+
+.body{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+
+.body_info{
+    display: flex;
+}
+
+.body_info_title{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.top_bar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 60px;
+}
+
+.top_bar input{
+    display: flex;
+    width: 310px;
+    height: 40px;
+    background: #4c4c4c;
+    border: none;
+    outline: none ;
+    border-radius: 8px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.search_icon{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #4c4c4c;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.data_container{
+    display: flex;
+    align-items: center;
+}
+
+.element{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.element:last-child{
+    margin-right: 0;
+}
+
+.weather_location{
+    font-size: 60px;
+    font-family: montserrat;
+    margin-right: 10px;
+}
+
+.weather_temp{
+    font-size: 80px;
+    font-family: poppins;
+}
+
+.data{
+    font-family: montserrat;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+._sunny{
+    background: linear-gradient(to right, #FFA500, #2259fe);
+}
+
+._rain{
+    background: linear-gradient(to right, #2d2d2d, #2259fe);
+    color: white;
+}
+
+._snow{
+    background: linear-gradient(to right, #747474, #2259fe);
+}
+
+._drizzle{
+    background: linear-gradient(to right, #000000, #2259fe);
+    color: white;
+}
+
+
+.desc{
+    justify-content: center;
+    width: 1300px;
+    padding: 0 15px;
+    margin: 0px auto;
+    box-sizing: content-box;
+    background-color: #474747;
+    color: rgb(111, 111, 111);
+    font-size: 20px;
+    font-family: montserrat;
+    text-align: center;
+    padding: 20px 0; 
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
